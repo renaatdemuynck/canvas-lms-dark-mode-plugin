@@ -1,0 +1,47 @@
+@media (prefers-color-scheme: dark) {
+  body::after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    pointer-events: none;
+    z-index: 2147483647;
+    backdrop-filter: invert(100%) hue-rotate(180deg) contrast(90%);
+  }
+
+  img,
+  video,
+  body.ic-Login-Body,
+  .Theme__container,
+  .ic-ThemeCard-thumbnail,
+  #header,
+  #content iframe {
+    filter: invert(100%) hue-rotate(180deg) contrast(112.5%) !important;
+  }
+
+  button,
+  input,
+  textarea {
+    color: var(--ic-brand-font-color-dark) !important;
+  }
+
+  select {
+    color: #ccc !important;
+    border-color: #333 !important;
+    background-color: black !important;
+    filter: invert(100%) hue-rotate(180deg) !important;
+  }
+
+  .ic-DashboardCard {
+    filter: invert(100%) hue-rotate(180deg) !important;
+    background-color: rgb(80%, 80%, 80%) !important;
+
+    & .ic-DashboardCard__header_content {
+      background-color: transparent !important;
+    }
+  }
+}
