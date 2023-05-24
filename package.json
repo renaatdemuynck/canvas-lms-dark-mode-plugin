@@ -14,5 +14,15 @@
   "module": "src/index.js",
   "files": [
     "src/"
-  ]
+  ],
+  "config": {
+    "scope": {
+      "account": true,
+      "user": true
+    },
+    "roles": {
+      "teacher": true,
+      "student": true
+    }
+  }
 }
