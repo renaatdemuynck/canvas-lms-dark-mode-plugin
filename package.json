@@ -14,5 +14,18 @@
   "module": "src/index.js",
   "files": [
     "src/"
-  ]
+  ],
+  "peerDependencies": {
+    "@artevelde-uas/canvas-lms-app": "^1.13.1"
+  },
+  "config": {
+    "scope": {
+      "account": true,
+      "user": true
+    },
+    "roles": {
+      "teacher": true,
+      "student": true
+    }
+  }
 }

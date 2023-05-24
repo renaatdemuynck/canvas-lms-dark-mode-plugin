@@ -2,6 +2,13 @@
 
 Plugin for the [Canvas LMS theme app](https://github.com/artevelde-uas/canvas-lms-app) that adds dark mode to Canvas.
 
+| DISCLAIMER: THIS PLUG-IN IS HIGHLY EXPERIMENTAL, USE AT YOUR OWN RISK |
+| --------------------------------------------------------------------- |
+
+_Although I have not found any real issues, it has not been thoroughly tested. If you find a problem with the dark mode theme, please post an issue._
+
+**NOTE:** The dark mode theme will only work if your OS or browser has dark mode activated.
+
 ## Installation
 
 Using NPM:
