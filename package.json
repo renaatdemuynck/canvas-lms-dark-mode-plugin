@@ -15,6 +15,9 @@
   "files": [
     "src/"
   ],
+  "peerDependencies": {
+    "@artevelde-uas/canvas-lms-app": "^1.13.1"
+  },
   "config": {
     "scope": {
       "account": true,

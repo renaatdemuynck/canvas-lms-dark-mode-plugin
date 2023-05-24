@@ -1,0 +1,14 @@
+{
+    "en": {
+        "package": {
+            "title": "Adds 'dark mode' to Canvas",
+            "description": "Automatically applies a 'dark mode' theme to Canvas when either the OS or the browser has 'dark mode' turned on."
+        }
+    },
+    "nl": {
+        "package": {
+            "title": "Voegt 'donkere modus' toe aan Canvas",
+            "description": "Past automatisch een 'donkere modus'-thema toe op Canvas wanneer in het OS of de browser de 'donkere modus' aan staat."
+        }
+    }
+}
